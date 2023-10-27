@@ -761,7 +761,6 @@ module.exports = {
     "no-console": 0,
     "react/prop-types": 0,
     "react/react-in-jsx-scope": "off",
-    "react/prop-types": 0,
     "no-unused-vars": 0    
   },
 }
@@ -782,7 +781,7 @@ Now the directories <em>dist</em> and <em>node_modules</em> will be skipped when
 As usual, you can perform the linting either from the command line with the command
 
 ```bash
-npm run Lint
+npm run lint
 ```
 
 or using the editor's Eslint plugin.
